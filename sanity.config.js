@@ -1,11 +1,11 @@
-import {defineConfig} from 'sanity'
-import {structureTool} from 'sanity/structure'
-import {visionTool} from '@sanity/vision'
-import {schemaTypes} from './schemaTypes'
+import { defineConfig } from 'sanity';
+import { structureTool } from 'sanity/structure';
+import { visionTool } from '@sanity/vision';
+import { schemaTypes } from './schemaTypes';
 
 export default defineConfig({
   name: 'default',
-  title: 'ChrisOttinger',
+  title: 'ChrisOttinger blog',
 
   projectId: '8mza8tmp',
   dataset: 'production',
@@ -15,4 +15,4 @@ export default defineConfig({
   schema: {
     types: schemaTypes,
   },
-})
+});
