@@ -1,9 +1,26 @@
-# Sanity Clean Content Studio
+# 🏗️ Ottinger Construction
 
-Congratulations, you have now installed the Sanity Content Studio, an open-source real-time content editing environment connected to the Sanity backend.
+A modern construction business website featuring a **dynamic blog**, **contact form**, and **responsive design**.
 
-Now you can do the following things:
+![Website Preview](https://yourimageurl.com) <!-- (You can upload a preview image later) -->
 
-- [Read “getting started” in the docs](https://www.sanity.io/docs/introduction/getting-started?utm_source=readme)
-- [Join the community Slack](https://slack.sanity.io/?utm_source=readme)
-- [Extend and build plugins](https://www.sanity.io/docs/content-studio/extending?utm_source=readme)
+## 🚀 Features
+- **Home Page** - Overview of the company and services.
+- **About Us** - Company background and values.
+- **Services** - List of offered construction and remodeling services.
+- **Blog/Portfolio** - Before-and-after project showcases, fully managed via Sanity CMS.
+- **Contact Page** - Contact form with email integration.
+
+## 📦 Tech Stack
+- **Frontend:** React.js, React Router
+- **Backend:** Sanity.io (CMS for dynamic content)
+- **Styling:** Custom CSS (Centralized)
+- **Hosting:** GitHub Pages / Netlify (to be determined)
+
+## 📄 Setup Instructions
+To run this project locally, follow these steps:
+
+### **1️⃣ Clone the Repository**
+```bash
+git clone https://github.com/tristiino/Ottinger-Construction.git
+cd Ottinger-Construction
