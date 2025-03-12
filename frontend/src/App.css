@@ -10,24 +10,37 @@ body {
 /* --- Navbar Styles --- */
 .navbar {
   background-color: #222;
-  padding: 15px;
-  text-align: center;
+  padding: 20px;
   display: flex;
+  align-items: center;
   justify-content: center;
+  position: relative;
+  height: 80px;
 }
 
+/* Logo Container - Positions logo on the left */
+.logo-container {
+  position: absolute;
+  left: 20px;
+}
+
+.logo-container img {
+  height: 100px;
+}
+
+/* Navbar Links */
 .navbar a {
   color: white;
   text-decoration: none;
-  margin: 0 15px;
+  margin: 0 80px;
   font-weight: bold;
+  font-size: 22px;
   transition: color 0.3s ease-in-out;
 }
 
 .navbar a:hover {
   color: #007bff;
 }
-
 
 /* --- Blog Page Styles --- */
 .blog-container {
@@ -94,23 +107,6 @@ body {
   color: white;
 }
 
-/* --- Button Styles --- */
-.load-more {
-  background-color: #007bff;
-  color: white;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  font-size: 16px;
-  margin-top: 20px;
-  transition: background-color 0.3s;
-}
-
-.load-more:hover {
-  background-color: #0056b3;
-}
-
 /* --- Lightbox (Fullscreen Image Preview) --- */
 .lightbox {
   position: fixed;
@@ -137,6 +133,7 @@ body {
   cursor: pointer;
 }
 
+/* --- Contact Page Styles --- */
 .contact-container {
   max-width: 600px;
   margin: 40px auto;
