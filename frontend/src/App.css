@@ -306,3 +306,59 @@ service-box h2 {
   margin-top: 5px;
   color: #555;
 }
+
+/* --- About Page Container --- */
+.about-container {
+  text-align: center;
+  padding: 40px 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/* --- Bio Section --- */
+.bio-section {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+}
+
+/* --- Mission Statement Section (Force Single Row) --- */
+.mission-statement {
+  display: flex;
+  justify-content: space-between; /* Ensures equal spacing */
+  align-items: center;
+  gap: 30px; /* Adjust spacing */
+  flex-wrap: nowrap; /* Prevents wrapping */
+  margin: 40px auto;
+  max-width: 1200px; /* Adjust width to fit content */
+  overflow: hidden; /* Prevents breaking */
+}
+
+/* --- Mission Boxes --- */
+.mission-box {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 30%; /* Ensures equal width */
+  min-width: 250px;
+  flex: 1; /* Distributes space evenly */
+}
+
+/* --- Mission Images --- */
+.mission-image {
+  width: 100%; /* Keeps images uniform */
+  height: 200px; /* Ensures consistency */
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+/* --- Mission Text --- */
+.mission-box p {
+  margin-top: 10px;
+  font-weight: bold;
+  color: #333;
+}
