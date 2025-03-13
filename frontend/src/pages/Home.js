@@ -39,11 +39,6 @@ const Home = () => {
       <section className="info-text">
         <p>Your dream project is just one step away. Contact us today to get started!</p>
       </section>
-
-      {/* Footer */}
-      <footer className="footer">
-        <p>&copy; 2025 Ottinger Construction. All rights reserved.</p>
-      </footer>
     </div>
   );
 };
