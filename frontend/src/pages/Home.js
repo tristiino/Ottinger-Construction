@@ -1,9 +1,10 @@
 import React, { useEffect } from 'react';
-import '../App.css'; // Ensure styling is applied
+import { Link } from 'react-router-dom'; // ✅ Import Link
+import '../App.css'; 
 
 const Home = () => {
   useEffect(() => {
-    document.title = "Home | Ottinger Construction"; // Update page title
+    document.title = "Home | Ottinger Construction";
   }, []);
 
   return (
@@ -21,18 +22,18 @@ const Home = () => {
 
       {/* Service Sections */}
       <section className="service-sections">
-        <div className="service-box">
+        <Link to="/services" className="service-box">
           <img src="/assets/construction.png" alt="Construction" className="service-image" />
           <h2>Construction</h2>
-        </div>
-        <div className="service-box">
+        </Link>
+        <Link to="/services" className="service-box">
           <img src="/assets/remodeling.png" alt="Remodeling" className="service-image" />
           <h2>Remodeling</h2>
-        </div>
-        <div className="service-box">
+        </Link>
+        <Link to="/services" className="service-box">
           <img src="/assets/exterior.png" alt="Exterior" className="service-image" />
           <h2>Exterior</h2>
-        </div>
+        </Link>
       </section>
 
       {/* Text Section */}

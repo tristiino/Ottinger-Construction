@@ -75,6 +75,8 @@ body {
 }
 
 .service-box {
+  text-decoration: none;
+  color: inherit;
   background: white;
   padding: 20px;
   border-radius: 10px;
@@ -84,7 +86,7 @@ body {
 }
 
 .service-image {
-  width: 100%;
+  width: 600px;
   height: auto;
   border-radius: 8px;
   transition: transform 0.2s;
@@ -92,6 +94,16 @@ body {
 
 .service-box:hover .service-image {
   transform: scale(1.05);
+}
+
+service-box h2 {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.service-box:hover h2 {
+  color: #007bff;
 }
 
 /* --- Info Text Section --- */
