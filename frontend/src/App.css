@@ -1,15 +1,16 @@
 /* --- Global Styles --- */
 body {
   font-family: Arial, sans-serif;
-  background-color: #f5f5f5;
+  background-color: #f8f1e7; /* Soft warm background for a welcoming feel */
   margin: 0;
   padding: 0;
   text-align: center;
+  color: #333; /* Dark gray text for better readability */
 }
 
 /* --- Navbar Styles --- */
 .navbar {
-  background-color: #222;
+  background-color: #1e3a56; /* Deep blue for a strong brand presence */
   padding: 20px;
   display: flex;
   align-items: center;
@@ -39,7 +40,7 @@ body {
 }
 
 .navbar a:hover {
-  color: #007bff;
+  color: #f4a825; /* Accent color from the logo */
 }
 
 /* --- Logo Section --- */
@@ -103,7 +104,7 @@ service-box h2 {
 }
 
 .service-box:hover h2 {
-  color: #007bff;
+  color: #f4a825;
 }
 
 /* --- Info Text Section --- */
@@ -216,43 +217,67 @@ service-box h2 {
   background: white;
   padding: 25px;
   border-radius: 8px;
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+  text-align: left;
+}
+
+/* Ensures form fields are evenly spaced and properly aligned */
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centers the form fields */
+  gap: 15px;
 }
 
 .contact-form label {
-  display: block;
   font-weight: bold;
-  margin-top: 12px;
+  margin-top: 8px;
+  display: block;
 }
 
 .contact-form input,
 .contact-form textarea {
   width: 100%;
   padding: 12px;
-  margin-top: 8px;
   border: 1px solid #ccc;
   border-radius: 5px;
+  font-size: 16px;
 }
 
+/* Make input fields the same height */
+.contact-form input {
+  height: 20px;
+}
+
+.contact-form textarea {
+  height: 120px; /* Ensures consistent field height */
+  resize: none;
+}
+
+/* Ensuring the button is even with the form width */
 .contact-form button {
   width: 100%;
   padding: 12px;
-  background: #333;
+  background: #1e3a56; /* Matches branding */
   color: white;
   border: none;
-  margin-top: 18px;
   cursor: pointer;
   font-size: 18px;
+  font-weight: bold;
+  border-radius: 5px;
+  margin-top: 10px;
+  transition: background 0.3s ease-in-out;
 }
 
 .contact-form button:hover {
-  background: #555;
+  background: #f4a825; /* Accent color for better engagement */
 }
 
 .success-message {
   color: green;
   font-weight: bold;
   text-align: center;
+  margin-top: 10px;
 }
 
 /* --- Services Page Styles --- */
@@ -362,3 +387,4 @@ service-box h2 {
   font-weight: bold;
   color: #333;
 }
+
