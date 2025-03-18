@@ -17,7 +17,7 @@ const Home = () => {
       {/* Overview Section */}
       <section className="overview">
         <h1>Welcome to Ottinger Construction</h1>
-        <p>We specialize in high-quality construction, remodeling, and exterior renovation services.</p>
+        <p>Established in 1983, we are a family-owned business specializing in high-quality construction, remodeling, and interior/exterior renovation services. Known for our honesty and reliability, we also offer financing options to help bring your vision to life</p>
       </section>
 
       {/* Service Sections */}
