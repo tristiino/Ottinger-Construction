@@ -32,13 +32,14 @@ const Home = () => {
         </Link>
         <Link to="/services" className="service-box">
           <img src="/assets/exterior.png" alt="Exterior" className="service-image" />
-          <h2>Exterior</h2>
+          <h2>Interior/Exterior</h2>
         </Link>
       </section>
 
       {/* Text Section */}
       <section className="info-text">
-        <p>Your dream project is just one step away. Contact us today to get started!</p>
+        <p>Your dream project is just one step away! Contact us today to get started.  
+Reach out to Carl at <a href="tel:3174912632">(317) 491-2632</a> or Chris at <a href="tel:3173406286">(317) 340-6286</a>—we’re here to bring your vision to life!</p>
       </section>
     </div>
   );
